@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".UserHome">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:text="User Home" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="#030927"-->
+<!--        android:background="#fff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Account Details" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button4"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="#030927"-->
+<!--        android:background="#fff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Transfer to Mobile number" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="#030927"-->
+<!--        android:background="#fff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Scan Qr" />-->
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button6"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="#030927"-->
+<!--        android:background="#fff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Available Loan" />-->
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button7"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="#030927"-->
+<!--        android:background="#fff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="My Loan" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button8"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="#030927"-->
+<!--        android:background="#fff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Chat" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button9"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="#030927"-->
+<!--        android:background="#fff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Complaints" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:background="#FF0202"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Logout" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_row="5"
+        android:layout_column="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="137dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Bank Transaction !"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <!--        <ImageView-->
+                <!--            android:id="@+id/imageView1"-->
+                <!--            android:layout_width="50dp"-->
+                <!--            android:layout_height="50dp"-->
+                <!--            android:layout_marginLeft="130dp"-->
+                <!--            android:layout_marginTop="26dp"-->
+                <!--            app:srcCompat="@drawable/pro" />-->
+
+                <!--        <TextView-->
+                <!--            android:id="@+id/notif"-->
+                <!--            android:layout_width="20dp"-->
+                <!--            android:layout_height="20dp"-->
+                <!--            android:layout_marginTop="50dp"-->
+                <!--            android:background="@drawable/circle"-->
+                <!--            android:gravity="center"-->
+                <!--            android:text="2"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:textSize="15dp"-->
+                <!--            android:textStyle="bold" />-->
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="20dp"
+                >
+
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:rowCount="5">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv1"
+                        android:layout_width="15dp"
+                        android:layout_height="130dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_columnWeight="1"
+                        app:cardCornerRadius="30dp"
+                        android:layout_gravity="fill"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardElevation="50dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center_horizontal"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button2"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:background="@drawable/acc"
+                                />
+
+                            <TextView
+
+                                android:id="@+id/rt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+
+                                android:text="Account Details"
+                                android:textAlignment="center"
+
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv3"
+                        android:layout_width="20dp"
+                        android:layout_height="130dp"
+                        android:layout_row="0"
+                        app:cardCornerRadius="30dp"
+                        android:layout_rowWeight="0"
+                        android:layout_column="1"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardElevation="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical|center_horizontal"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button4"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+
+                                android:src="@drawable/mob" />
+
+                            <TextView
+                                android:id="@+id/ep"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Transfer to Mobile number"
+                                android:textAlignment="center"
+
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv2"
+                        android:layout_width="20dp"
+                        android:layout_height="130dp"
+                        android:layout_row="2"
+                        android:layout_rowWeight="1"
+                        android:layout_column="0"
+                        app:cardCornerRadius="30dp"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardElevation="50dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center_horizontal"
+
+                            android:gravity="center"
+
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button7"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+
+                                android:src="@drawable/minel" />
+
+                            <TextView
+                                android:id="@+id/sa"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="My Loan"
+
+
+                                android:textAlignment="center"
+
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv4"
+                        android:layout_width="10dp"
+                        android:layout_height="130dp"
+                        android:layout_row="1"
+                        android:layout_rowWeight="1"
+                        android:layout_column="1"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical|center_horizontal"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button6"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+
+                                android:src="@drawable/loan" />
+
+                            <TextView
+                                android:id="@+id/h"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Available Loan"
+
+                                android:textAlignment="center"
+
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv5"
+                        android:layout_width="20dp"
+                        android:layout_height="100dp"
+                        android:layout_row="1"
+                        android:layout_rowWeight="1"
+                        android:layout_column="0"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="210dp"
+
+                            android:layout_gravity="center_vertical|center_horizontal"
+
+                            android:gravity="center"
+
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button5"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+
+                                android:src="@drawable/qr" />
+
+                            <TextView
+                                android:id="@+id/gt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Scan Qr"
+                                android:textAlignment="center"
+
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv6"
+                        android:layout_width="10dp"
+                        android:layout_height="130dp"
+                        android:layout_row="2"
+                        android:layout_rowWeight="1"
+                        android:layout_column="1"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical|center_horizontal"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button8"
+                                android:layout_width="70dp"
+                                android:layout_height="81dp"
+
+                                android:src="@drawable/chat" />
+
+                            <TextView
+                                android:id="@+id/t"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Chat"
+
+                                android:textAlignment="center"
+
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv7"
+                        android:layout_width="10dp"
+                        android:layout_height="130dp"
+                        android:layout_row="3"
+                        android:layout_rowWeight="1"
+                        android:layout_column="0"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical|center_horizontal"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button9"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/complaint" />
+
+                            <TextView
+                                android:id="@+id/s"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Complaints"
+                                android:textAlignment="center"
+
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv8"
+                        android:layout_width="10dp"
+                        android:layout_height="130dp"
+                        android:layout_row="3"
+                        android:layout_rowWeight="1"
+                        android:layout_column="1"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical|center_horizontal"
+
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button1"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+
+
+                                android:src="@drawable/logo" />
+
+                            <TextView
+                                android:id="@+id/button176"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Logout"
+                                android:textAlignment="center"
+
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </GridLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

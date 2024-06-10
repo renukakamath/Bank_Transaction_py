@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Login">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="50dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:shadowRadius="4"-->
+<!--        android:shadowColor="#FF5252"-->
+<!--        android:shadowDy="8"-->
+
+<!--        android:shadowDx="3"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="LOGIN" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/username"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+
+<!--        android:textColorHint="#FFFFFF"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:ems="10"-->
+
+<!--        android:textStyle="bold"-->
+
+<!--        android:inputType="textPersonName"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:hint="Username" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/password"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+
+<!--        android:textColorHint="#FFFFFF"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textStyle="bold"-->
+
+<!--        android:paddingLeft="20dp"-->
+<!--        android:hint="Password" />-->
+
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/loginbtn"-->
+<!--        android:layout_width="160dp"-->
+<!--        android:background="#fff"-->
+<!--        android:textColor="#172365"-->
+<!--        android:textStyle="bold"-->
+
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="LOGIN" />-->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="405dp"
+        android:layout_height="277dp"
+        android:layout_marginTop="2dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bnk" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:text="BANK TRANSFER"
+        android:textColor="#6F806F"
+        android:textSize="96px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="24dp"
+
+        android:background="@drawable/bg_txt_username"
+
+        android:hint="Username"
+        android:paddingLeft="60dp"
+        android:textColor="#596160"
+        android:textSize="40px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="14dp"
+
+        android:background="@drawable/bg_txt_password"
+
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="60dp"
+        android:textColor="#596160"
+        android:textSize="40px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:background="#2c43eb"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:text="Login" />
+
+
+
+</LinearLayout>
